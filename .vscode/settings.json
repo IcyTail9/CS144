@@ -1,4 +1,20 @@
 {
     "C_Cpp.default.cppStandard": "gnu++17",
-    "C_Cpp.default.cStandard": "gnu17"
+    "C_Cpp.default.cStandard": "gnu17",
+    "files.associations": {
+        "*.tcc": "cpp",
+        "fstream": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "memory_resource": "cpp",
+        "string_view": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "system_error": "cpp"
+    }
 }

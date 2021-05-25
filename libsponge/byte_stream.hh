@@ -3,6 +3,7 @@
 
 #include <string>
 #include <deque>
+#include <list>
 #include "buffer.hh"
 //! \brief An in-order byte stream.
 
@@ -19,15 +20,16 @@ class ByteStream {
     // different approaches.
 
     size_t _capacity = 0;
-    size_t _buffer_size = 0;
+    //size_t _buffer_size = 0;
     size_t _bytes_written = 0;
     size_t _bytes_read = 0;
+    
 
     bool _inputEnded = false;
     bool _error = false;  //!< Flag indicating that the stream suffered an error.
 
     //std::deque<char> _stream{};
-    BufferList _stream{};
+    BufferList _buffers{};
 
   public:
     //! Construct a stream with room for `capacity` bytes.
@@ -91,5 +93,4 @@ class ByteStream {
     size_t bytes_read() const;
     //!@}
 };
-
 #endif  // SPONGE_LIBSPONGE_BYTE_STREAM_HH
