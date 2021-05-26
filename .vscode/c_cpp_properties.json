@@ -3,9 +3,13 @@
         {
             "name": "Linux",
             "includePath": [
+                "/usr/include/**",
+                "/usr/local/**",
+                "/home/icytail09/CS144/libsponge/**",
                 "${workspaceFolder}/**",
+                "${workspaceFolder}/libsponge/util",
                 "${workspaceFolder}/libsponge",
-                "${workspaceFolder}/libsponge/util"
+                "${workspaceFolder}/libsponge/tcp_helpers"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
