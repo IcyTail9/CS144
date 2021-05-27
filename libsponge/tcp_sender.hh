@@ -29,18 +29,18 @@ class TCPSender {
     //! outgoing stream of bytes that have not yet been sent
     ByteStream _stream;
 
-    //! the (absolute) sequence number for the next byte to be sent
+    //! the (absolute) sequence number for the next byte NEED to be sent
     uint64_t _next_seqno{0};
+    uint64_t _last_ack_seqno{0};
+    const uint16_t STOP_TIMER = INT16_MAX;
 
-    bool _syn = false;
-    bool _fin = false;
     //size_t _rto = TCPConfig::TIMEOUT_DFLT;
     uint16_t _consecutive_retrans_times = 0;
     //unsigned int _timer = false;
     uint64_t _timer{0};
 
     uint16_t _window_size{1};
-    size_t _bytes_in_flight{0};
+    //size_t _bytes_in_flight{0};
     std::queue<TCPSegment> _segments_outstanding{};
 
   public:
