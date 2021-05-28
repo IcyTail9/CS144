@@ -8,7 +8,23 @@
 
 #include <functional>
 #include <queue>
+//! \brief The "timer" part of a TCPSender.
+class TCPSegmentTimer {
+  private:
+    bool _is_on{false};
+    size_t _time_passed{0};
 
+  public:
+    void start() {
+        _is_on = true;
+        _time_passed = 0;
+    }
+    void close() { _is_on = false; }
+    bool is_on() const { return _is_on; }
+    size_t time() const { return _time_passed; }
+    void time_passed(size_t ms) { _time_passed += ms; }
+    //TCPSegmentTimer::TCPSegmentTimer() {}
+};
 //! \brief The "sender" part of a TCP implementation.
 
 //! Accepts a ByteStream, divides it up into segments and sends the
@@ -26,22 +42,30 @@ class TCPSender {
     //! retransmission timer for the connection
     unsigned int _initial_retransmission_timeout;
 
+
     //! outgoing stream of bytes that have not yet been sent
     ByteStream _stream;
+     
+    unsigned int _rto;
 
     //! the (absolute) sequence number for the next byte NEED to be sent
     uint64_t _next_seqno{0};
     uint64_t _last_ack_seqno{0};
-    const uint16_t STOP_TIMER = INT16_MAX;
+    const size_t STOP_TIMER{UINT64_MAX};
+    const size_t START_TIMER{0};
 
     //size_t _rto = TCPConfig::TIMEOUT_DFLT;
     uint16_t _consecutive_retrans_times = 0;
     //unsigned int _timer = false;
-    uint64_t _timer{0};
+    //size_t _timer{0};
 
     uint16_t _window_size{1};
     //size_t _bytes_in_flight{0};
     std::queue<TCPSegment> _segments_outstanding{};
+
+    void send_segment(TCPSegment& seg);
+
+    TCPSegmentTimer _timer{};
 
   public:
     //! Initialize a TCPSender

@@ -6,7 +6,7 @@
             "name": "CS144 Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/home/icytail09/CS144/build/tests/fsm_stream_reassembler_overlapping",
+            "program": "/home/icytail09/CS144/build/tests/send_extra",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
