@@ -23,6 +23,7 @@ class TCPSegmentTimer {
     bool is_on() const { return _is_on; }
     size_t time() const { return _time_passed; }
     void time_passed(size_t ms) { _time_passed += ms; }
+    void set_zero() {_time_passed = 0;}
     //TCPSegmentTimer::TCPSegmentTimer() {}
 };
 //! \brief The "sender" part of a TCP implementation.
@@ -48,11 +49,11 @@ class TCPSender {
      
     unsigned int _rto;
 
-    //! the (absolute) sequence number for the next byte NEED to be sent
+    //! the (absolute) sequence number for the next byte to be sent
     uint64_t _next_seqno{0};
     uint64_t _last_ack_seqno{0};
-    const size_t STOP_TIMER{UINT64_MAX};
-    const size_t START_TIMER{0};
+    //const size_t STOP_TIMER{UINT64_MAX};
+    //const size_t START_TIMER{0};
 
     //size_t _rto = TCPConfig::TIMEOUT_DFLT;
     uint16_t _consecutive_retrans_times = 0;

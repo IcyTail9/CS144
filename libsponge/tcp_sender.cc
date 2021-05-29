@@ -23,8 +23,8 @@ TCPSender::TCPSender(const size_t capacity, const uint16_t retx_timeout, const s
     , _rto(retx_timeout) {}
 
 //! \note returns bytes those sent yet not acked
-//! \note _stream.bytes_read() equals total bytes_sent_out
-//! \note next_seqno_absolute() equals total bytes_acked
+//! \note _next_seqno equals total bytes sent
+//! \note _last_ack_seqno equals total bytes acked
 uint64_t TCPSender::bytes_in_flight() const { return _next_seqno - _last_ack_seqno; }
 
 //! \note Things to do with a TCPSegment and internal structures
@@ -98,7 +98,7 @@ void TCPSender::fill_window() {
 //! \param _consecutive_retrans_time: reset to zero
 //! \param _timer: if \param _segments_outstanding not empty, set \param _rto to it
 void TCPSender::ack_received(const WrappingInt32 ackno, const uint16_t window_size) { 
-    if(_last_ack_seqno > unwrap(ackno, _isn, _next_seqno))
+    if(_last_ack_seqno > unwrap(ackno, _isn, _next_seqno) or unwrap(ackno, _isn, _next_seqno) > _next_seqno )
         return;
 
     _window_size = window_size;
