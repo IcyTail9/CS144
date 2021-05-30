@@ -26,7 +26,9 @@ class TCPConnection {
     bool _active {true};
 
    // size_t _time_since_last_segment_received{0};
-    void set_header_and_sent(bool _rst = false);
+    void send_segment();
+    void shutdown();
+    void send_rst();
     void clean_end();
     bool const RST = true;
 
