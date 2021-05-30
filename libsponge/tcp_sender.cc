@@ -90,7 +90,7 @@ void TCPSender::fill_window() {
 
 //! \param ackno The remote receiver's ackno (acknowledgment number)
 //! \param window_size The remote receiver's advertised window size
-//! \note Things to do with \param _next_seqno: set \param[in] ackno to it
+//! \note Things to do with \param _last_ack_seqno: set \param[in] ackno to it
 //! \note Things to do with \param _segments_outstanding: check & remove the TCPSegment acked
 
 //! \note If an outstanding TCPSegment is acked, do as follows:

@@ -6,7 +6,7 @@
             "name": "CS144 Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/home/icytail09/CS144/build/tests/recv_connect",
+            "program": "/home/icytail09/CS144/build/tests/fsm_active_close",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
