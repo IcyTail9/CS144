@@ -38,9 +38,12 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
         return;
     
     _sender.fill_window();
+
     if(_sender.segments_out().empty())
         _sender.send_empty_segment();
     send_segment();
+
+    
 }
 
 bool TCPConnection::active() const { return _active; }
@@ -55,12 +58,14 @@ void TCPConnection::tick(const size_t ms_since_last_tick) {
         return;
     
     _sender.tick(ms_since_last_tick);
+    _timer.time_passed(ms_since_last_tick);
     if(_sender.consecutive_retransmissions() > _cfg.MAX_RETX_ATTEMPTS){
         shutdown();
         send_rst();
+        return;
     }
     
-    _timer.time_passed(ms_since_last_tick);
+    
     // _sender.tick() may cause retransmission
     send_segment();
 }
@@ -127,10 +132,18 @@ void TCPConnection::send_segment(){
 }
 void TCPConnection::send_rst(){
     _sender.send_empty_segment();
-    TCPSegment seg =_sender.segments_out().front();
+
+    
+    _sender.segments_out().front().header().rst = true;
+    if (_receiver.ackno().has_value()) {
+           _sender.segments_out().front().header().ack = true;
+            _sender.segments_out().front().header().ackno = _receiver.ackno().value();
+        }
+
+    _segments_out.push(_sender.segments_out().front());
+
     _sender.segments_out().pop();
-    seg.header().rst = true;
-    _segments_out.push(seg);
+    clean_end();
 
 }
 void TCPConnection::clean_end(){
@@ -162,7 +175,7 @@ TCPConnection::~TCPConnection() {
             cerr << "Warning: Unclean shutdown of TCPConnection\n";
 
             // Your code here: need to send a RST segment to the peer
-            shutdown();
+            //shutdown();
             send_rst();
 
         }
@@ -170,3 +183,4 @@ TCPConnection::~TCPConnection() {
         std::cerr << "Exception destructing TCP FSM: " << e.what() << std::endl;
     }
 }
+

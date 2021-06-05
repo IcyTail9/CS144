@@ -9,7 +9,7 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
     // first SYN recv
     if (seg.header().syn) {
         // ignore repeat syn segment
-        if(ackno().has_value())
+        if(_remote_isn)
             return;
         //_isn = std::make_optional<WrappingInt32>(header.seqno.raw_value());
         //isn = std::make_optional<WrappingInt32>(seg.header().seqno.raw_value());   
@@ -17,7 +17,7 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
     }
 
     // if a link setup, receive data
-    if (ackno().has_value() and not stream_out().input_ended()) {
+    if (_remote_isn and not stream_out().input_ended()) {
         // unwrap a seqno to a absolute number
         uint64_t abs_num = unwrap(seg.header().seqno, _remote_isn.value(), _checkpoint);
         // reset checkpoint
