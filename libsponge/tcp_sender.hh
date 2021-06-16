@@ -15,12 +15,6 @@ class TCPSegmentTimer {
     size_t _time_passed{0};
 
   public:
-    // TCPSegmentTimer() = delete;
-    // TCPSegmentTimer(const TCPSegmentTimer &other) = delete;
-    // TCPSegmentTimer &operator=(const TCPSegmentTimer &other) = delete;
-    // TCPSegmentTimer(TCPSegmentTimer &&other) = delete; 
-    // TCPSegmentTimer &operator=(TCPSegmentTimer &&other) = delete;
-
     TCPSegmentTimer(bool is_on) :_is_on(is_on){};
 
     void start() {
