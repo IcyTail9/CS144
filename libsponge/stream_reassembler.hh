@@ -28,13 +28,13 @@ class StreamReassembler {
       size_t _end_index;
 
       substrings(std::string data,size_t index):_data(data),_start_index(index),_end_index(data.length()+index){};
-      
+
       // compare method for set searching
       bool operator<(const substrings &another) const { return _end_index < another._start_index; }
      
     };
-    //std::list<substrings> _reassembler = {};
-    std::set<substrings> _reassembler{};
+    std::list<substrings> _reassembler = {};
+    // std::set<substrings> _reassembler{};
 
     
   public:
