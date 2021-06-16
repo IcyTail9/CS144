@@ -7,7 +7,6 @@
 #include <string>
 #include <set>
 #include <list>
-#include <forward_list>
 
 //! \brief A class that assembles a series of excerpts from a byte stream (possibly out of order,
 //! possibly overlapping) into an in-order byte stream.
@@ -29,13 +28,13 @@ class StreamReassembler {
       size_t _end_index;
 
       substrings(std::string data,size_t index):_data(data),_start_index(index),_end_index(data.length()+index){};
-
-      bool operator< (const substrings& another) const{
-        return _start_index < another._start_index;
-      }
-
+      
+      // compare method for set searching
+      bool operator<(const substrings &another) const { return _end_index < another._start_index; }
+     
     };
-    std::list<substrings> _ressembler = {};
+    //std::list<substrings> _reassembler = {};
+    std::set<substrings> _reassembler{};
 
     
   public:
@@ -75,4 +74,3 @@ class StreamReassembler {
 };
 
 #endif  // SPONGE_LIBSPONGE_STREAM_REASSEMBLER_HH
-
