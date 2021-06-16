@@ -1,0 +1,393 @@
+21:26:32.105868 IP icytail.6045 > 169.254.144.9.58527: Flags [S.], seq 158119835, ack 2862849394, win 29200, options [mss 1460], length 0
+21:26:32.107525 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 1, win 8192, length 0
+21:26:32.107556 IP 169.254.144.9.58527 > icytail.6045: Flags [F.], seq 1, ack 1, win 8192, length 0
+21:26:32.108052 IP icytail.6045 > 169.254.144.9.58527: Flags [.], ack 2, win 29200, length 0
+21:26:32.109238 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 1:537, ack 2, win 29200, length 536
+21:26:32.109240 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 537:1073, ack 2, win 29200, length 536
+21:26:32.109241 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 1073:1609, ack 2, win 29200, length 536
+21:26:32.109242 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 1609:2145, ack 2, win 29200, length 536
+21:26:32.109242 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 2145:2681, ack 2, win 29200, length 536
+21:26:32.109253 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 2681:3217, ack 2, win 29200, length 536
+21:26:32.109254 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 3217:3753, ack 2, win 29200, length 536
+21:26:32.109255 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 3753:4289, ack 2, win 29200, length 536
+21:26:32.109256 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 4289:4825, ack 2, win 29200, length 536
+21:26:32.109256 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 4825:5361, ack 2, win 29200, length 536
+21:26:32.110184 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 537, win 7656, length 0
+21:26:32.110198 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 5361:5897, ack 2, win 29200, length 536
+21:26:32.110206 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 1073, win 7120, length 0
+21:26:32.110344 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 1609, win 7656, length 0
+21:26:32.110352 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 2145, win 7120, length 0
+21:26:32.110493 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 2681, win 7656, length 0
+21:26:32.110503 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 5897:6433, ack 2, win 29200, length 536
+21:26:32.110504 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 6433:6969, ack 2, win 29200, length 536
+21:26:32.110505 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 6969:7505, ack 2, win 29200, length 536
+21:26:32.110506 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 7505:8041, ack 2, win 29200, length 536
+21:26:32.110514 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 3217, win 7120, length 0
+21:26:32.110650 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 3753, win 7656, length 0
+21:26:32.110655 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 8041:8577, ack 2, win 29200, length 536
+21:26:32.110656 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 8577:9113, ack 2, win 29200, length 536
+21:26:32.110663 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 4289, win 7120, length 0
+21:26:32.110799 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 4825, win 7656, length 0
+21:26:32.110806 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 5361, win 7120, length 0
+21:26:32.110811 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 9113:9649, ack 2, win 29200, length 536
+21:26:32.110812 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 9649:10185, ack 2, win 29200, length 536
+21:26:32.110814 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 10185:10721, ack 2, win 29200, length 536
+21:26:32.110948 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 5897, win 7656, length 0
+21:26:32.110953 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 10721:11257, ack 2, win 29200, length 536
+21:26:32.110959 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 6433, win 7120, length 0
+21:26:32.110963 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 11257:11793, ack 2, win 29200, length 536
+21:26:32.111109 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 6969, win 7656, length 0
+21:26:32.111115 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 11793:12329, ack 2, win 29200, length 536
+21:26:32.111122 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 7505, win 7120, length 0
+21:26:32.111125 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 12329:12865, ack 2, win 29200, length 536
+21:26:32.111259 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 8041, win 7656, length 0
+21:26:32.111267 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 8577, win 7120, length 0
+21:26:32.111401 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 9113, win 7656, length 0
+21:26:32.111408 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 9649, win 7120, length 0
+21:26:32.111415 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 12865:13401, ack 2, win 29200, length 536
+21:26:32.111416 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 13401:13937, ack 2, win 29200, length 536
+21:26:32.111417 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 13937:14473, ack 2, win 29200, length 536
+21:26:32.111418 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 14473:15009, ack 2, win 29200, length 536
+21:26:32.111562 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 10185, win 7656, length 0
+21:26:32.111570 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 10721, win 7120, length 0
+21:26:32.111576 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 15009:15545, ack 2, win 29200, length 536
+21:26:32.111577 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 15545:16081, ack 2, win 29200, length 536
+21:26:32.111578 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 16081:16617, ack 2, win 29200, length 536
+21:26:32.111712 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 11257, win 7656, length 0
+21:26:32.111720 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 11793, win 7120, length 0
+21:26:32.111854 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 12329, win 7656, length 0
+21:26:32.111863 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 12865, win 7120, length 0
+21:26:32.111870 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 16617:17153, ack 2, win 29200, length 536
+21:26:32.111871 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 17153:17689, ack 2, win 29200, length 536
+21:26:32.111871 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 17689:18225, ack 2, win 29200, length 536
+21:26:32.111873 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 18225:18761, ack 2, win 29200, length 536
+21:26:32.112008 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 13401, win 7656, length 0
+21:26:32.112015 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 13937, win 7120, length 0
+21:26:32.112160 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 14473, win 7656, length 0
+21:26:32.112166 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 18761:19297, ack 2, win 29200, length 536
+21:26:32.112167 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 19297:19833, ack 2, win 29200, length 536
+21:26:32.112168 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 19833:20369, ack 2, win 29200, length 536
+21:26:32.112175 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 15009, win 7120, length 0
+21:26:32.112310 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 15545, win 7656, length 0
+21:26:32.112317 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 16081, win 7120, length 0
+21:26:32.112462 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 16617, win 7656, length 0
+21:26:32.112470 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 20369:20905, ack 2, win 29200, length 536
+21:26:32.112472 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 20905:21441, ack 2, win 29200, length 536
+21:26:32.112473 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 21441:21977, ack 2, win 29200, length 536
+21:26:32.112474 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 21977:22513, ack 2, win 29200, length 536
+21:26:32.112480 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 17153, win 7120, length 0
+21:26:32.112624 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 17689, win 7656, length 0
+21:26:32.112632 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 18225, win 7120, length 0
+21:26:32.112637 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 22513:23049, ack 2, win 29200, length 536
+21:26:32.112638 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 23049:23585, ack 2, win 29200, length 536
+21:26:32.112639 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 23585:24121, ack 2, win 29200, length 536
+21:26:32.112773 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 18761, win 7656, length 0
+21:26:32.112780 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 19297, win 7120, length 0
+21:26:32.112914 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 19833, win 7656, length 0
+21:26:32.112921 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 20369, win 7120, length 0
+21:26:32.112926 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 24121:24657, ack 2, win 29200, length 536
+21:26:32.112927 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 24657:25193, ack 2, win 29200, length 536
+21:26:32.112928 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 25193:25729, ack 2, win 29200, length 536
+21:26:32.112929 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 25729:26265, ack 2, win 29200, length 536
+21:26:32.113074 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 20905, win 7656, length 0
+21:26:32.113079 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 26265:26801, ack 2, win 29200, length 536
+21:26:32.113086 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 21441, win 7120, length 0
+21:26:32.113090 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 26801:27337, ack 2, win 29200, length 536
+21:26:32.113091 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 27337:27873, ack 2, win 29200, length 536
+21:26:32.113227 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 21977, win 7656, length 0
+21:26:32.113235 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 22513, win 7120, length 0
+21:26:32.113369 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 23049, win 7656, length 0
+21:26:32.113375 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 23585, win 7120, length 0
+21:26:32.113381 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 27873:28409, ack 2, win 29200, length 536
+21:26:32.113382 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 28409:28945, ack 2, win 29200, length 536
+21:26:32.113383 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 28945:29481, ack 2, win 29200, length 536
+21:26:32.113384 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 29481:30017, ack 2, win 29200, length 536
+21:26:32.113527 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 24121, win 7656, length 0
+21:26:32.113536 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 24657, win 7120, length 0
+21:26:32.113669 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 25193, win 7656, length 0
+21:26:32.113675 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 30017:30553, ack 2, win 29200, length 536
+21:26:32.113676 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 30553:31089, ack 2, win 29200, length 536
+21:26:32.113677 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 31089:31625, ack 2, win 29200, length 536
+21:26:32.113683 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 25729, win 7120, length 0
+21:26:32.113814 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 26265, win 7656, length 0
+21:26:32.113821 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 26801, win 7120, length 0
+21:26:32.113952 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 27337, win 6584, length 0
+21:26:32.113958 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 31625:32161, ack 2, win 29200, length 536
+21:26:32.113959 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 32161:32697, ack 2, win 29200, length 536
+21:26:32.113959 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 32697:33233, ack 2, win 29200, length 536
+21:26:32.113960 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 33233:33769, ack 2, win 29200, length 536
+21:26:32.113967 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 27873, win 6048, length 0
+21:26:32.114109 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 28409, win 5512, length 0
+21:26:32.114118 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 28945, win 4976, length 0
+21:26:32.114248 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 29481, win 4440, length 0
+21:26:32.114255 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 30017, win 3904, length 0
+21:26:32.114385 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 30553, win 3368, length 0
+21:26:32.114392 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 31089, win 2832, length 0
+21:26:32.114529 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 31625, win 2296, length 0
+21:26:32.114536 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 32161, win 1760, length 0
+21:26:32.114668 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 32697, win 1224, length 0
+21:26:32.114675 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 33233, win 688, length 0
+21:26:32.114745 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 33769, win 152, length 0
+21:26:32.321073 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 33769:33921, ack 2, win 29200, length 152
+21:26:32.321382 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 33921, win 8040, length 0
+21:26:32.321415 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 33921:34457, ack 2, win 29200, length 536
+21:26:32.321416 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 34457:34993, ack 2, win 29200, length 536
+21:26:32.321417 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 34993:35529, ack 2, win 29200, length 536
+21:26:32.321418 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 35529:36065, ack 2, win 29200, length 536
+21:26:32.321419 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 36065:36601, ack 2, win 29200, length 536
+21:26:32.321419 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 36601:37137, ack 2, win 29200, length 536
+21:26:32.321422 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 37137:37521, ack 2, win 29200, length 384
+21:26:32.321430 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 37521:38057, ack 2, win 29200, length 536
+21:26:32.321431 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 38057:38593, ack 2, win 29200, length 536
+21:26:32.321432 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 38593:39129, ack 2, win 29200, length 536
+21:26:32.321433 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 39129:39665, ack 2, win 29200, length 536
+21:26:32.321433 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 39665:40201, ack 2, win 29200, length 536
+21:26:32.321434 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 40201:40737, ack 2, win 29200, length 536
+21:26:32.321581 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 34457, win 7656, length 0
+21:26:32.321589 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 40737:41273, ack 2, win 29200, length 536
+21:26:32.321597 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 34993, win 7120, length 0
+21:26:32.321601 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 41273:41809, ack 2, win 29200, length 536
+21:26:32.321729 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 35529, win 7656, length 0
+21:26:32.321736 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 36065, win 7120, length 0
+21:26:32.321862 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 36601, win 7656, length 0
+21:26:32.321869 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 37137, win 7120, length 0
+21:26:32.321993 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 37521, win 7808, length 0
+21:26:32.322004 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 41809:42345, ack 2, win 29200, length 536
+21:26:32.322004 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 42345:42881, ack 2, win 29200, length 536
+21:26:32.322005 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 42881:43417, ack 2, win 29200, length 536
+21:26:32.322006 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 43417:43953, ack 2, win 29200, length 536
+21:26:32.322007 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 43953:44489, ack 2, win 29200, length 536
+21:26:32.322013 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 38057, win 7272, length 0
+21:26:32.322017 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 44489:45025, ack 2, win 29200, length 536
+21:26:32.322157 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 38593, win 7656, length 0
+21:26:32.322164 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 45025:45561, ack 2, win 29200, length 536
+21:26:32.322170 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 39129, win 7120, length 0
+21:26:32.322296 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 39665, win 7656, length 0
+21:26:32.322303 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 40201, win 7120, length 0
+21:26:32.322428 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 40737, win 7656, length 0
+21:26:32.322436 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 41273, win 7120, length 0
+21:26:32.322443 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 45561:46097, ack 2, win 29200, length 536
+21:26:32.322444 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 46097:46633, ack 2, win 29200, length 536
+21:26:32.322445 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 46633:47169, ack 2, win 29200, length 536
+21:26:32.322446 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 47169:47705, ack 2, win 29200, length 536
+21:26:32.322447 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 47705:48241, ack 2, win 29200, length 536
+21:26:32.322581 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 41809, win 7656, length 0
+21:26:32.322586 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 48241:48777, ack 2, win 29200, length 536
+21:26:32.322592 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 42345, win 7120, length 0
+21:26:32.322720 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 42881, win 7656, length 0
+21:26:32.322727 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 43417, win 7120, length 0
+21:26:32.322852 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 43953, win 7656, length 0
+21:26:32.322860 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 48777:49313, ack 2, win 29200, length 536
+21:26:32.322861 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 49313:49849, ack 2, win 29200, length 536
+21:26:32.322862 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 49849:50385, ack 2, win 29200, length 536
+21:26:32.322863 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 50385:50921, ack 2, win 29200, length 536
+21:26:32.322863 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 50921:51457, ack 2, win 29200, length 536
+21:26:32.322870 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 44489, win 7120, length 0
+21:26:32.322996 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 45025, win 7656, length 0
+21:26:32.323001 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 51457:51993, ack 2, win 29200, length 536
+21:26:32.323002 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 51993:52529, ack 2, win 29200, length 536
+21:26:32.323008 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 45561, win 7120, length 0
+21:26:32.323147 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 46097, win 7656, length 0
+21:26:32.323155 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 52529:53065, ack 2, win 29200, length 536
+21:26:32.323156 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 53065:53601, ack 2, win 29200, length 536
+21:26:32.323163 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 46633, win 7120, length 0
+21:26:32.323298 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 47169, win 7656, length 0
+21:26:32.323306 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 47705, win 7120, length 0
+21:26:32.323431 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 48241, win 7656, length 0
+21:26:32.323438 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 48777, win 7120, length 0
+21:26:32.323570 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 49313, win 7656, length 0
+21:26:32.323578 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 53601:54137, ack 2, win 29200, length 536
+21:26:32.323579 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 54137:54673, ack 2, win 29200, length 536
+21:26:32.323580 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 54673:55209, ack 2, win 29200, length 536
+21:26:32.323581 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 55209:55745, ack 2, win 29200, length 536
+21:26:32.323581 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 55745:56281, ack 2, win 29200, length 536
+21:26:32.323588 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 49849, win 7120, length 0
+21:26:32.323713 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 50385, win 7656, length 0
+21:26:32.323720 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 50921, win 7120, length 0
+21:26:32.323856 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 51457, win 7656, length 0
+21:26:32.323864 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 56281:56817, ack 2, win 29200, length 536
+21:26:32.323865 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 56817:57353, ack 2, win 29200, length 536
+21:26:32.323867 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 57353:57889, ack 2, win 29200, length 536
+21:26:32.323867 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 57889:58425, ack 2, win 29200, length 536
+21:26:32.323868 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 58425:58961, ack 2, win 29200, length 536
+21:26:32.323874 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 51993, win 7120, length 0
+21:26:32.324000 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 52529, win 7656, length 0
+21:26:32.324005 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 58961:59497, ack 2, win 29200, length 536
+21:26:32.324006 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 59497:60033, ack 2, win 29200, length 536
+21:26:32.324012 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 53065, win 7120, length 0
+21:26:32.324157 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 53601, win 7656, length 0
+21:26:32.324165 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 60033:60569, ack 2, win 29200, length 536
+21:26:32.324166 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 60569:61105, ack 2, win 29200, length 536
+21:26:32.324167 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 61105:61257, ack 2, win 29200, length 152
+21:26:32.324174 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 54137, win 7120, length 0
+21:26:32.324299 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 54673, win 7656, length 0
+21:26:32.324306 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 55209, win 7120, length 0
+21:26:32.324430 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 55745, win 7656, length 0
+21:26:32.324436 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 56281, win 7120, length 0
+21:26:32.324568 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 56817, win 7656, length 0
+21:26:32.324577 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 61257:61793, ack 2, win 29200, length 536
+21:26:32.324578 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 61793:62329, ack 2, win 29200, length 536
+21:26:32.324579 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 62329:62865, ack 2, win 29200, length 536
+21:26:32.324580 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 62865:63401, ack 2, win 29200, length 536
+21:26:32.324581 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 63401:63785, ack 2, win 29200, length 384
+21:26:32.324588 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 57353, win 7120, length 0
+21:26:32.324712 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 57889, win 7656, length 0
+21:26:32.324719 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 58425, win 7120, length 0
+21:26:32.324841 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 58961, win 7656, length 0
+21:26:32.324849 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 63785:64321, ack 2, win 29200, length 536
+21:26:32.324850 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 64321:64857, ack 2, win 29200, length 536
+21:26:32.324850 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 64857:65393, ack 2, win 29200, length 536
+21:26:32.324851 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 65393:65929, ack 2, win 29200, length 536
+21:26:32.324852 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 65929:66465, ack 2, win 29200, length 536
+21:26:32.324858 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 59497, win 7120, length 0
+21:26:32.324980 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 60033, win 6584, length 0
+21:26:32.324987 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 60569, win 6048, length 0
+21:26:32.325117 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 61105, win 5512, length 0
+21:26:32.325125 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 61257, win 5360, length 0
+21:26:32.325248 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 61793, win 4824, length 0
+21:26:32.325254 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 62329, win 4288, length 0
+21:26:32.325376 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 62865, win 3752, length 0
+21:26:32.325383 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 63401, win 3216, length 0
+21:26:32.325513 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 63785, win 2832, length 0
+21:26:32.325521 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 64321, win 2296, length 0
+21:26:32.325643 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 64857, win 1760, length 0
+21:26:32.325650 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 65393, win 1224, length 0
+21:26:32.325771 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 65929, win 688, length 0
+21:26:32.325778 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 66465, win 152, length 0
+21:26:32.529079 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 66465:66617, ack 2, win 29200, length 152
+21:26:32.529404 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 66617, win 8040, length 0
+21:26:32.529431 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 66617:67153, ack 2, win 29200, length 536
+21:26:32.529433 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 67153:67537, ack 2, win 29200, length 384
+21:26:32.529443 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 67537:68073, ack 2, win 29200, length 536
+21:26:32.529444 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 68073:68609, ack 2, win 29200, length 536
+21:26:32.529445 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 68609:69145, ack 2, win 29200, length 536
+21:26:32.529446 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 69145:69681, ack 2, win 29200, length 536
+21:26:32.529447 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 69681:70217, ack 2, win 29200, length 536
+21:26:32.529448 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 70217:70753, ack 2, win 29200, length 536
+21:26:32.529449 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 70753:71289, ack 2, win 29200, length 536
+21:26:32.529457 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 71289:71825, ack 2, win 29200, length 536
+21:26:32.529458 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 71825:72361, ack 2, win 29200, length 536
+21:26:32.529459 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 72361:72897, ack 2, win 29200, length 536
+21:26:32.529460 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 72897:73433, ack 2, win 29200, length 536
+21:26:32.529461 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 73433:73969, ack 2, win 29200, length 536
+21:26:32.529461 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 73969:74505, ack 2, win 29200, length 536
+21:26:32.529617 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 67153, win 7656, length 0
+21:26:32.529630 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 67537, win 7272, length 0
+21:26:32.529799 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 68073, win 7656, length 0
+21:26:32.529807 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 74505:75041, ack 2, win 29200, length 536
+21:26:32.529815 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 68609, win 7120, length 0
+21:26:32.529952 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 69145, win 7656, length 0
+21:26:32.529959 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 69681, win 7120, length 0
+21:26:32.530108 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 70217, win 7656, length 0
+21:26:32.530119 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 75041:75577, ack 2, win 29200, length 536
+21:26:32.530120 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 75577:76113, ack 2, win 29200, length 536
+21:26:32.530121 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 76113:76649, ack 2, win 29200, length 536
+21:26:32.530122 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 76649:77185, ack 2, win 29200, length 536
+21:26:32.530123 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 77185:77721, ack 2, win 29200, length 536
+21:26:32.530124 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 77721:77873, ack 2, win 29200, length 152
+21:26:32.530131 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 70753, win 7120, length 0
+21:26:32.530266 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 71289, win 7656, length 0
+21:26:32.530272 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 77873:78409, ack 2, win 29200, length 536
+21:26:32.530273 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 78409:78793, ack 2, win 29200, length 384
+21:26:32.530281 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 71825, win 7120, length 0
+21:26:32.530429 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 72361, win 7656, length 0
+21:26:32.530438 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 72897, win 7120, length 0
+21:26:32.530609 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 73433, win 7656, length 0
+21:26:32.530619 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 73969, win 7120, length 0
+21:26:32.530777 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 74505, win 7656, length 0
+21:26:32.530794 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 78793:79329, ack 2, win 29200, length 536
+21:26:32.530795 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 79329:79865, ack 2, win 29200, length 536
+21:26:32.530796 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 79865:80401, ack 2, win 29200, length 536
+21:26:32.530797 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 80401:80937, ack 2, win 29200, length 536
+21:26:32.530798 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 80937:81473, ack 2, win 29200, length 536
+21:26:32.530799 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 81473:82009, ack 2, win 29200, length 536
+21:26:32.530808 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 75041, win 7120, length 0
+21:26:32.530948 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 75577, win 7656, length 0
+21:26:32.530952 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 82009:82545, ack 2, win 29200, length 536
+21:26:32.530959 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 76113, win 7120, length 0
+21:26:32.531107 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 76649, win 7656, length 0
+21:26:32.531115 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 82545:83081, ack 2, win 29200, length 536
+21:26:32.531117 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 83081:83617, ack 2, win 29200, length 536
+21:26:32.531117 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 83617:84153, ack 2, win 29200, length 536
+21:26:32.531124 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 77185, win 7120, length 0
+21:26:32.531258 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 77721, win 7656, length 0
+21:26:32.531265 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 77873, win 7504, length 0
+21:26:32.531431 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 78409, win 7656, length 0
+21:26:32.531441 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 78793, win 7272, length 0
+21:26:32.531620 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 79329, win 7656, length 0
+21:26:32.531633 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 84153:84689, ack 2, win 29200, length 536
+21:26:32.531634 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 84689:85225, ack 2, win 29200, length 536
+21:26:32.531635 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 85225:85761, ack 2, win 29200, length 536
+21:26:32.531636 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 85761:86297, ack 2, win 29200, length 536
+21:26:32.531647 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 79865, win 7120, length 0
+21:26:32.531814 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 80401, win 7656, length 0
+21:26:32.531824 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 80937, win 7120, length 0
+21:26:32.531958 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 81473, win 7656, length 0
+21:26:32.531969 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 86297:86833, ack 2, win 29200, length 536
+21:26:32.531970 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 86833:87369, ack 2, win 29200, length 536
+21:26:32.531971 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 87369:87905, ack 2, win 29200, length 536
+21:26:32.531972 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 87905:88441, ack 2, win 29200, length 536
+21:26:32.531973 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 88441:88977, ack 2, win 29200, length 536
+21:26:32.531974 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 88977:89129, ack 2, win 29200, length 152
+21:26:32.531980 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 82009, win 7120, length 0
+21:26:32.532131 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 82545, win 7656, length 0
+21:26:32.532137 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 89129:89665, ack 2, win 29200, length 536
+21:26:32.532140 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 89665:90049, ack 2, win 29200, length 384
+21:26:32.532150 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 83081, win 7120, length 0
+21:26:32.532284 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 83617, win 7656, length 0
+21:26:32.532292 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 84153, win 7120, length 0
+21:26:32.532426 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 84689, win 7656, length 0
+21:26:32.532433 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 85225, win 7120, length 0
+21:26:32.532625 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 85761, win 7656, length 0
+21:26:32.532638 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 90049:90585, ack 2, win 29200, length 536
+21:26:32.532639 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 90585:91121, ack 2, win 29200, length 536
+21:26:32.532640 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 91121:91657, ack 2, win 29200, length 536
+21:26:32.532641 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 91657:92193, ack 2, win 29200, length 536
+21:26:32.532642 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 92193:92729, ack 2, win 29200, length 536
+21:26:32.532643 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 92729:93265, ack 2, win 29200, length 536
+21:26:32.532650 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 86297, win 7120, length 0
+21:26:32.532813 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 86833, win 7656, length 0
+21:26:32.532823 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 93265:93801, ack 2, win 29200, length 536
+21:26:32.532834 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 87369, win 7120, length 0
+21:26:32.532990 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 87905, win 7656, length 0
+21:26:32.532999 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 88441, win 7120, length 0
+21:26:32.533170 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 88977, win 7656, length 0
+21:26:32.533183 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 93801:94337, ack 2, win 29200, length 536
+21:26:32.533184 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 94337:94873, ack 2, win 29200, length 536
+21:26:32.533185 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 94873:95409, ack 2, win 29200, length 536
+21:26:32.533186 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 95409:95945, ack 2, win 29200, length 536
+21:26:32.533187 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 95945:96481, ack 2, win 29200, length 536
+21:26:32.533194 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 89129, win 7504, length 0
+21:26:32.533329 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 89665, win 7656, length 0
+21:26:32.533337 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 90049, win 7272, length 0
+21:26:32.533470 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 90585, win 7656, length 0
+21:26:32.533475 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 96481:97017, ack 2, win 29200, length 536
+21:26:32.533477 IP icytail.6045 > 169.254.144.9.58527: Flags [P.], seq 97017:97553, ack 2, win 29200, length 536
+21:26:32.533483 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 91121, win 7120, length 0
+21:26:32.533649 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 91657, win 7656, length 0
+21:26:32.533665 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 92193, win 7120, length 0
+21:26:32.533826 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 92729, win 6584, length 0
+21:26:32.533840 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 93265, win 6048, length 0
+21:26:32.533987 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 93801, win 5512, length 0
+21:26:32.533996 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 94337, win 4976, length 0
+21:26:32.534004 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 97553:98089, ack 2, win 29200, length 536
+21:26:32.534005 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 98089:98625, ack 2, win 29200, length 536
+21:26:32.534006 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 98625:99161, ack 2, win 29200, length 536
+21:26:32.534007 IP icytail.6045 > 169.254.144.9.58527: Flags [.], seq 99161:99313, ack 2, win 29200, length 152
+21:26:32.534154 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 94873, win 4440, length 0
+21:26:32.534163 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 95409, win 3904, length 0
+21:26:32.534294 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 95945, win 3368, length 0
+21:26:32.534301 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 96481, win 2832, length 0
+21:26:32.534433 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 97017, win 2296, length 0
+21:26:32.534439 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 97553, win 1760, length 0
+21:26:32.534580 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 98089, win 1224, length 0
+21:26:32.534588 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 98625, win 688, length 0
+21:26:32.534749 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 99161, win 152, length 0
+21:26:32.534759 IP 169.254.144.9.58527 > icytail.6045: Flags [.], ack 99313, win 0, length 0
+21:26:32.737087 IP icytail.6045 > 169.254.144.9.58527: Flags [.], ack 2, win 29200, length 0
+21:26:33.145065 IP icytail.6045 > 169.254.144.9.58527: Flags [.], ack 2, win 29200, length 0
+21:26:33.961076 IP icytail.6045 > 169.254.144.9.58527: Flags [.], ack 2, win 29200, length 0
+21:26:35.177080 IP icytail.22174 > 169.254.144.9.53398: Flags [.], ack 2415195458, win 29200, length 0
+21:26:35.625071 IP icytail.6045 > 169.254.144.9.58527: Flags [.], ack 2, win 29200, length 0
+21:26:38.889074 IP icytail.6045 > 169.254.144.9.58527: Flags [.], ack 2, win 29200, length 0
+

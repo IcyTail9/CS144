@@ -11,10 +11,18 @@
 //! \brief The "timer" part of a TCPSender.
 class TCPSegmentTimer {
   private:
-    bool _is_on{false};
+    bool _is_on;
     size_t _time_passed{0};
 
   public:
+    // TCPSegmentTimer() = delete;
+    // TCPSegmentTimer(const TCPSegmentTimer &other) = delete;
+    // TCPSegmentTimer &operator=(const TCPSegmentTimer &other) = delete;
+    // TCPSegmentTimer(TCPSegmentTimer &&other) = delete; 
+    // TCPSegmentTimer &operator=(TCPSegmentTimer &&other) = delete;
+
+    TCPSegmentTimer(bool is_on) :_is_on(is_on){};
+
     void start() {
         _is_on = true;
         _time_passed = 0;
@@ -24,7 +32,6 @@ class TCPSegmentTimer {
     size_t time() const { return _time_passed; }
     void time_passed(size_t ms) { _time_passed += ms; }
     void set_zero() {_time_passed = 0;}
-    //TCPSegmentTimer::TCPSegmentTimer() {}
 };
 //! \brief The "sender" part of a TCP implementation.
 
@@ -51,22 +58,18 @@ class TCPSender {
 
     //! the (absolute) sequence number for the next byte to be sent
     uint64_t _next_seqno{0};
-    uint64_t _last_ack_seqno{0};
-    //const size_t STOP_TIMER{UINT64_MAX};
-    //const size_t START_TIMER{0};
+    uint64_t _last_ackno{0};
 
-    //size_t _rto = TCPConfig::TIMEOUT_DFLT;
-    uint16_t _consecutive_retrans_times = 0;
-    //unsigned int _timer = false;
-    //size_t _timer{0};
+    uint16_t _consecutive_retrans_times{0};
+    uint16_t _consecutive_ack_receive_times{0};
 
     uint16_t _window_size{1};
-    //size_t _bytes_in_flight{0};
+
     std::queue<TCPSegment> _segments_outstanding{};
 
     void send_segment(TCPSegment& seg);
 
-    TCPSegmentTimer _timer{};
+    TCPSegmentTimer _timer{false};
 
   public:
     //! Initialize a TCPSender
@@ -107,6 +110,7 @@ class TCPSender {
     //! \brief Number of consecutive retransmissions that have occurred in a row
     unsigned int consecutive_retransmissions() const;
 
+    unsigned int consecutive_ack_receive_times() const { return _consecutive_ack_receive_times;}
     //! \brief TCPSegments that the TCPSender has enqueued for transmission.
     //! \note These must be dequeued and sent by the TCPConnection,
     //! which will need to fill in the fields that are set by the TCPReceiver
@@ -122,6 +126,10 @@ class TCPSender {
 
     //! \brief relative seqno for the next byte to be sent
     WrappingInt32 next_seqno() const { return wrap(_next_seqno, _isn); }
+
+    //! \brief a additional interface for quick retrans
+    std::queue<TCPSegment> &segments_outstanding() { return _segments_outstanding; }
+    
     //!@}
 };
 

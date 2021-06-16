@@ -10,9 +10,7 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
     if (seg.header().syn) {
         // ignore repeat syn segment
         if(_remote_isn)
-            return;
-        //_isn = std::make_optional<WrappingInt32>(header.seqno.raw_value());
-        //isn = std::make_optional<WrappingInt32>(seg.header().seqno.raw_value());   
+            return; 
         _remote_isn = seg.header().seqno;
     }
 
@@ -22,7 +20,6 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
         uint64_t abs_num = unwrap(seg.header().seqno, _remote_isn.value(), _checkpoint);
         // reset checkpoint
         _checkpoint = abs_num;
-
         // write the data into resembler, if a FIN recv, set the stream input ended
         _reassembler.push_substring(seg.payload().copy(), seg.header().syn ? 0 : abs_num - 1, seg.header().fin);
     }
@@ -30,14 +27,12 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
 
 std::optional<WrappingInt32> TCPReceiver::ackno() const {
     size_t shift = 1;
+    // "FIN_SENT"
     if (stream_out().input_ended() && _reassembler.unassembled_bytes() == 0)
         shift = 2;
-    //if(_isn and not stream_out().input_ended())
+    // “SYN_RECV"
     if(_remote_isn.has_value())
-        //return std::make_optional<WrappingInt32>(_reassembler.first_unassemble() + shift + _isn.value().raw_value());
         return wrap(_reassembler.first_unassemble() + shift, _remote_isn.value());
-    //if(stream_out().input_ended())
-    //    return wrap(_reassembler.first_unassemble()+2,_isn.value());
     return std::nullopt;
 }
 

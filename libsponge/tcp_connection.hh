@@ -13,7 +13,7 @@ class TCPConnection {
     TCPReceiver _receiver{_cfg.recv_capacity};
     TCPSender _sender{_cfg.send_capacity, _cfg.rt_timeout, _cfg.fixed_isn};
 
-    TCPSegmentTimer _timer{};
+    TCPSegmentTimer _timer{true};
 
     //! outbound queue of segments that the TCPConnection wants sent
     std::queue<TCPSegment> _segments_out{};
@@ -24,15 +24,16 @@ class TCPConnection {
     bool _linger_after_streams_finish{true};
 
     bool _active {true};
+    
+    bool _window_not_zero{true};
 
-   // size_t _time_since_last_segment_received{0};
-    void send_segment();
-    void shutdown();
+    //! pop sender's segments out
+    void pop_all_seg_in_sender();
     void send_rst();
+
+    //! close a connection
+    void shutdown();
     void clean_end();
-    bool const RST = true;
-
-
 
   public:
     //! \name "Input" interface for the writer

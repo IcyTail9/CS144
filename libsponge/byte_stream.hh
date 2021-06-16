@@ -23,6 +23,7 @@ class ByteStream {
     //size_t _buffer_size = 0;
     size_t _bytes_written = 0;
     size_t _bytes_read = 0;
+    size_t _size{0};
     
 
     bool _inputEnded = false;
